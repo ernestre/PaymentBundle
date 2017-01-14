@@ -29,6 +29,7 @@ class AppKernel extends Kernel
 ```yml
 ernestre_payment:
     resource: "@ErnestrePaymentBundle/Controller/"
+    type:     annotation
 
 ```
 * Add configuration:
