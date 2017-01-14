@@ -1,4 +1,5 @@
 ## Symfony Paysera SMS Payment Bundle.
+[![Build Status](https://travis-ci.org/ernestre/PaymentBundle.svg?branch=master)](https://travis-ci.org/ernestre/PaymentBundle)
 
 This bundle uses `webtopay/libwebtopay` library for accepting sms payments via [ Paysera ](https://www.paysera.lt/v2/en-LT/index) payment gateway.
 
