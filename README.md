@@ -34,8 +34,8 @@ ernestre_payment:
 ```yml
 ernestre_payment:
   project:
-    id: 123 // Your project id
-    sign_password: // Your sign password
+    id:             123 # Your project id
+    sign_password:  123 # Your project's sign password
 ```
 
 * Configure sms callback route to `/sms-callback` in your paysera project setting.
