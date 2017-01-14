@@ -1,0 +1,20 @@
+{
+    "name": "ernestre/sms-payment-bundle",
+    "type": "symfony-bundle",
+    "description": "SMS payment bundle, with Paysera payment gateway integration.",
+    "require": {
+        "php": ">=5.3.2",
+        "symfony/symfony": ">=2.8",
+        "webtopay/libwebtopay": "^1.6"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ernest Rekel",
+            "email": "ernest.rekel@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "Ernestre\\PaymentBundle\\": "" }
+    }
+}

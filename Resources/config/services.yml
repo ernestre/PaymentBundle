@@ -1,0 +1,7 @@
+services:
+    ernestre_payment.sms_payment.sms_payment_builder:
+        class: Ernestre\PaymentBundle\Services\SmsPaymentBuilder
+    ernestre_payment.sms_payment.answer_sender:
+        class: Ernestre\PaymentBundle\Services\SmsPaymentAnswerSender
+        arguments:
+            - '%sign_password%'
