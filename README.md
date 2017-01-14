@@ -38,7 +38,7 @@ ernestre_payment:
     sign_password:  123 # Your project's sign password
 ```
 
-* Configure sms callback route to `/sms-callback` in your paysera project setting.
+* Configure sms callback route to `/sms-callback` in your Paysera project settings.
 
 # Usage
 
